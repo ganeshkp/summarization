@@ -57,7 +57,7 @@ if st.button("Summarize the Content from YT or Website"):
 
                 # Split into chunks to avoid token limit errors
                 text_splitter = CharacterTextSplitter(
-                    separator="\n", chunk_size=3000, chunk_overlap=300
+                    separator="\n", chunk_size=500, chunk_overlap=50
                 )
                 split_docs = text_splitter.split_documents(docs)
 
