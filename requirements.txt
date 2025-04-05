@@ -6,8 +6,9 @@ langchain_huggingface
 langchain-groq
 duckduckgo_search==5.3.1b1
 validators==0.28.1
-youtube_transcript_api
+youtube-transcript-api
 unstructured
 pytube
 numexpr
 huggingface_hub
+youtube-transcript-api
